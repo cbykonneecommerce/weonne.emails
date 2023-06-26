@@ -5,7 +5,9 @@
   },
   "license": "MIT",
   "scripts": {
-    "gulp": "node ./node_modules/gulp/bin/gulp.js"
+    "gulp": "node ./node_modules/gulp/bin/gulp.js preview",
+    "dev": "node ./node_modules/gulp/bin/gulp.js dev",
+    "build": "node ./node_modules/gulp/bin/gulp.js dist"
   },
   "devDependencies": {
     "@akzhan/gulp-juice": "^0.1.6",
